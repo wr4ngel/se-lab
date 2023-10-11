@@ -19,4 +19,9 @@ public class GT4500 implements SpaceShip {
     return false;
   }
 
+  @Override
+  public boolean fireTorpedo(FiringMode firingMode) {
+    throw new UnsupportedOperationException("Unimplemented method 'fireTorpedo'");
+  }
+
 }
